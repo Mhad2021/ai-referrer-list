@@ -1,0 +1,44 @@
+{
+  "name": "ai-referrer-list",
+  "version": "0.1.0",
+  "description": "Which AI assistant sent this visit? A maintained list of AI referrer hostnames and UTM sources (ChatGPT, Gemini, Perplexity, Claude, Copilot and more), plus a tiny detector and a GA4 regex.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./referrers.json": "./referrers.json"
+  },
+  "files": [
+    "index.js",
+    "referrers.json"
+  ],
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "ai",
+    "chatgpt",
+    "perplexity",
+    "gemini",
+    "claude",
+    "copilot",
+    "referrer",
+    "analytics",
+    "ga4",
+    "attribution",
+    "ai-search"
+  ],
+  "homepage": "https://whichaisent.com/ai-traffic-tracking/",
+  "license": "MIT",
+  "author": "Which AI Sent (https://whichaisent.com)",
+  "engines": {
+    "node": ">=20.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mhad2021/ai-referrer-list.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mhad2021/ai-referrer-list/issues"
+  }
+}

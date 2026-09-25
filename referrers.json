@@ -1,0 +1,90 @@
+{
+  "hosts": [
+    {
+      "host": "chatgpt.com",
+      "source": "chatgpt"
+    },
+    {
+      "host": "chat.openai.com",
+      "source": "chatgpt"
+    },
+    {
+      "host": "gemini.google.com",
+      "source": "gemini"
+    },
+    {
+      "host": "bard.google.com",
+      "source": "gemini"
+    },
+    {
+      "host": "perplexity.ai",
+      "source": "perplexity"
+    },
+    {
+      "host": "claude.ai",
+      "source": "claude"
+    },
+    {
+      "host": "copilot.microsoft.com",
+      "source": "copilot"
+    },
+    {
+      "host": "copilot.cloud.microsoft",
+      "source": "copilot"
+    },
+    {
+      "host": "meta.ai",
+      "source": "other_ai"
+    },
+    {
+      "host": "grok.com",
+      "source": "other_ai"
+    },
+    {
+      "host": "chat.deepseek.com",
+      "source": "other_ai"
+    },
+    {
+      "host": "chat.mistral.ai",
+      "source": "other_ai"
+    },
+    {
+      "host": "you.com",
+      "source": "other_ai"
+    },
+    {
+      "host": "phind.com",
+      "source": "other_ai"
+    },
+    {
+      "host": "poe.com",
+      "source": "other_ai"
+    }
+  ],
+  "utm": [
+    {
+      "pattern": "chatgpt|openai",
+      "source": "chatgpt"
+    },
+    {
+      "pattern": "perplexity",
+      "source": "perplexity"
+    },
+    {
+      "pattern": "gemini|bard",
+      "source": "gemini"
+    },
+    {
+      "pattern": "claude|anthropic",
+      "source": "claude"
+    },
+    {
+      "pattern": "copilot",
+      "source": "copilot"
+    },
+    {
+      "pattern": "deepseek|grok|meta\\.ai|mistral|you\\.com|phind|poe",
+      "source": "other_ai"
+    }
+  ]
+}
